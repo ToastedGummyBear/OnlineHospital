@@ -1,0 +1,8 @@
+﻿body {
+}
+.finddocimage {
+    height: 367px;
+    background-image: url('../Images/Images for FindDoctorPage/FindDocPic.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

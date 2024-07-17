@@ -1,0 +1,26 @@
+﻿
+.border_page {
+    font-family: Arial;
+    height: auto;
+    width: 1000px;
+    border-style: none;
+    border-radius: 20px;
+    background-color: white;
+    margin: 30px auto;
+}
+
+.imagepage {
+    background-image: url('../Images/Images for DoctorAdminPage/DocAdmin.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.border_fordocadminhome {
+    font-family: Arial;
+    height: 300px;
+    width: 390px;
+    border-style: none;
+    border-radius: 12px;
+    background-color: white;
+    margin: 30px auto;
+}

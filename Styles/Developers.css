@@ -1,0 +1,7 @@
+﻿body {
+}
+.developerimage {
+    height: 367px;
+    background-image: url('../Images/Developers_Image/PicDev.png');
+    background-size: cover;
+}

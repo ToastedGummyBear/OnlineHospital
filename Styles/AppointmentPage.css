@@ -1,0 +1,28 @@
+﻿body {
+}
+
+.appointmentimage {
+    height: 367px;
+    background-image: url('../Images/Images for AppointmentPage/PicAppointment.png');
+    background-size: cover;
+}
+
+.border_appointment {
+    font-family: Arial;
+    height: auto;
+    width: 1000px;
+    border-style: none;
+    border-radius: 12px;
+    background-color: white;
+    margin: 30px auto;
+}
+
+.border_apphome {
+    font-family: Arial;
+    height: auto;
+    width: 500px;
+    border-style: none;
+    border-radius: 12px;
+    background-color: white;
+    margin: 30px auto;
+}

@@ -1,0 +1,11 @@
+﻿body {
+}
+.docborder{
+    font-family: Arial;
+    height: auto;
+    width: auto;
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: white;
+    margin: 30px auto;
+}

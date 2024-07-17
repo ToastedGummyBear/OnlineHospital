@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="" title="Malayan Medical Center">
+		<siteMapNode url="HomePage.aspx" title="Home"  description="Home Page">
+			<siteMapNode url="FindDoctorPage.aspx" title="Find Doctor"  description="Find Doctor" />
+			<siteMapNode url="AppointmentPage.aspx" title="Appointment" description="Appointment Page">
+				<siteMapNode url="AppointmentPageCreate.aspx" title="Create New Appointment" description="Create New Appointment"/>
+				<siteMapNode url="AppointmentPageView.aspx" title="View Appointment Status" description="Viiew Appointment Status"/>
+			</siteMapNode>
+			<siteMapNode url="About_Us.aspx" title="About Us"  description="About Malayan Medical Center">
+				<siteMapNode url="Developers.aspx" title="About Developers" description="About the Developers"/>
+			</siteMapNode>
+			<siteMapNode url="Staff_Login.aspx" title="Staff Log-in" description="Log-in for Doctor or Admin"/>
+		</siteMapNode>
+
+		<siteMapNode url="DoctorHomepage.aspx" title="Home"  description="Homepage for Admin">
+			<siteMapNode url="DoctorPageAppointment.aspx" title="Appointment Management"  description="Appointment Management" />
+			<siteMapNode url="DoctorPageList.aspx" title="Appointment List"  description="Appointment List" />
+		</siteMapNode>
+
+		<siteMapNode url="AdminHomepage.aspx" title="Home"  description="Homepage for Admin">
+			<siteMapNode url="AdminPageArchive.aspx" title="Archive File"  description="Archive" />
+			<siteMapNode url="AdminPageCreate.aspx" title="Create File"  description="Create" />
+			<siteMapNode url="AdminPageUpdate.aspx" title="Update File"  description="Update" />
+		</siteMapNode>
+		
+	</siteMapNode>
+</siteMap>

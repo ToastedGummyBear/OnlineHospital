@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="DoctorMasterPage.master.cs" Inherits="Group4_A55_IT114.DoctorMasterPage1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title> Group 4 Machine Problem </title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style19 {
+            text-align: right;
+            width: 1183px;
+        }
+        .auto-style20 {
+            width: 100%;
+            height: 95px;
+        }
+        .auto-style39 {
+            width: 60px;
+        }
+        .auto-style115 {
+            height: 190px;
+            width: 1057px;
+        }
+        </style>
+
+    <!--StyleSheets-->
+    <link href="Styles/StyleSheet.css" rel="stylesheet" />
+    <!--MasterPage-->
+    <link href="Styles/MasterPage.css" rel="stylesheet" />
+    <!--HomePage for Doctor/Admin-->
+    <link href="Styles/DoctorAdmin.css" rel="stylesheet" />
+    <link href="Styles/DoctorPage.css" rel="stylesheet" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <!--Header_Master-->
+        <div class = "header">
+            <table class="auto-style20">
+                <tr>
+                    <td class="auto-style39">
+                        
+                        <asp:ImageButton ID="doc_LOGO" runat="server" Height="60px" ImageUrl="~/Images/Logo/mmc_icon.png" OnClick="doc_LOGO_Click" Width="60px" />
+                        
+                    </td>
+                    <td class="auto-style19">
+                        <asp:Button ID="btnManage" runat="server" BorderStyle="None" Text="Appointment Management" Width="250px" CssClass="buttonzoom" CausesValidation="False" OnClick="btnManage_Click"/>
+                        <asp:Button ID="btnList" runat="server" BorderStyle="None" Text="View Appointment" Width="200px" CssClass="buttonzoom" CausesValidation="False" OnClick="btnList_Click"/>
+                        <asp:Button ID="Log_Out" runat="server" BorderStyle="None" Text="Log Out" Width="90px" CssClass="buttonzoom" CausesValidation="False" OnClick="Log_Out_Click"/>
+                    </td>
+                </tr>
+            </table>
+
+         </div>
+        <div class="sitemap">
+            <asp:SiteMapPath ID="SiteMapPath1" runat="server" CssClass="sitemap" OnItemCreated="SiteMapPath1_ItemCreated">
+                <CurrentNodeStyle ForeColor="#144878" />
+                <NodeStyle Font-Bold="True" ForeColor="#4a8bc7" />
+                <PathSeparatorStyle Font-Bold="True" ForeColor="#4a8bc7" />
+                <RootNodeStyle Font-Bold="True" ForeColor="#779bbd" />
+            </asp:SiteMapPath>
+            
+        </div>
+ <div class="imagepage">
+        <table>
+             <tr>
+                 <td class="auto-style115">
+                         <asp:Label ID="lblDoctor" runat="server" Text="Label" Font-Bold="True" Font-Italic="True" ForeColor="White"></asp:Label>
+                 </td>
+             </tr>
+         </table>
+    </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        </asp:ContentPlaceHolder>
+
+    <br />
+
+    </form>
+</body>
+</html>
